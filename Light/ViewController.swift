@@ -17,7 +17,11 @@ class ViewController: UIViewController {
     @IBOutlet var lightButton: UIButton!
     
     @IBAction func buttonPressed(_ sender: Any) {
-        lightOn.toggle()
+        lightOn = !lightOn
+        updateUI()
+    }
+    
+    func updateUI() {
         if lightOn {
             view.backgroundColor = .white
         } else {
