@@ -14,8 +14,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         updateUI()
     }
-
-    @IBOutlet var lightButton: UIButton!
     
     @IBAction func buttonPressed(_ sender: Any) {
         lightOn = !lightOn
@@ -23,13 +21,7 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-        if lightOn {
-            view.backgroundColor = .white
-            lightButton.setTitle("Off", for: .normal)
-        } else {
-            view.backgroundColor = .black
-            lightButton.setTitle("On", for: .normal)
-        }
+        view.backgroundColor = lightOn ? .white : .black
     }
     
     var lightOn = true
