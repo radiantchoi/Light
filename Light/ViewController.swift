@@ -14,6 +14,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBOutlet var lightButton: UIButton!
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        lightOn.toggle()
+        if lightOn {
+            view.backgroundColor = .white
+        } else {
+            view.backgroundColor = .black
+        }
+    }
+    
+    var lightOn = true
+    
 }
 
