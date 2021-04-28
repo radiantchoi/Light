@@ -37,6 +37,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F32098526396F3900194554 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F921D5926161ACC00B2AA8B /* Main.storyboard */,
+				4F921D5726161ACC00B2AA8B /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4F32098626396F4300194554 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4F921D5E26161ACC00B2AA8B /* LaunchScreen.storyboard */,
+				4F921D5C26161ACC00B2AA8B /* Assets.xcassets */,
+				4F921D6126161ACC00B2AA8B /* Info.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		4F921D4726161ACC00B2AA8B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +75,10 @@
 		4F921D5226161ACC00B2AA8B /* Light */ = {
 			isa = PBXGroup;
 			children = (
+				4F32098626396F4300194554 /* Assets */,
+				4F32098526396F3900194554 /* ViewControllers */,
 				4F921D5326161ACC00B2AA8B /* AppDelegate.swift */,
 				4F921D5526161ACC00B2AA8B /* SceneDelegate.swift */,
-				4F921D5726161ACC00B2AA8B /* ViewController.swift */,
-				4F921D5926161ACC00B2AA8B /* Main.storyboard */,
-				4F921D5C26161ACC00B2AA8B /* Assets.xcassets */,
-				4F921D5E26161ACC00B2AA8B /* LaunchScreen.storyboard */,
-				4F921D6126161ACC00B2AA8B /* Info.plist */,
 			);
 			path = Light;
 			sourceTree = "<group>";
@@ -288,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5UNW2D34P;
-				INFOPLIST_FILE = Light/Info.plist;
+				INFOPLIST_FILE = Light/Assets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5UNW2D34P;
-				INFOPLIST_FILE = Light/Info.plist;
+				INFOPLIST_FILE = Light/Assets/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
